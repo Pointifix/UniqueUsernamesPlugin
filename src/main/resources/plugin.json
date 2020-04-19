@@ -1,0 +1,7 @@
+{
+  "name": "UniqueUsernamesPlugin",
+  "author": "Pointifix",
+  "main": "unique.usernames.UniqueUsernamesPlugin",
+  "description": "A plugin to demonstrate some basic features.",
+  "version": 1.0
+}

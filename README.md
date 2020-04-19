@@ -1,1 +1,1 @@
-UniqueUsernames
+# Unique Usernames Plugin
