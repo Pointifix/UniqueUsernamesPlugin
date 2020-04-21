@@ -2,6 +2,6 @@
   "name": "UniqueUsernamesPlugin",
   "author": "Pointifix",
   "main": "unique.usernames.UniqueUsernamesPlugin",
-  "description": "A plugin to demonstrate some basic features.",
+  "description": "Saves the username of each joined user and prohibits impersonations.",
   "version": 1.0
 }
