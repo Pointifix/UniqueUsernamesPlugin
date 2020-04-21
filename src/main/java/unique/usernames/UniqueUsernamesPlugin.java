@@ -1,8 +1,10 @@
 package unique.usernames;
 
 import arc.Events;
+import arc.graphics.Color;
 import arc.util.CommandHandler;
 import arc.util.Log;
+import arc.util.Strings;
 import mindustry.Vars;
 import mindustry.entities.type.Player;
 import mindustry.game.EventType;
@@ -27,6 +29,9 @@ public class UniqueUsernamesPlugin extends Plugin {
 
         Events.on(EventType.PlayerJoin.class, playerJoin -> {
             Player player = playerJoin.player;
+
+            player.name = Strings.stripColors(player.name);
+            player.color = Color.white;
 
             if (uniqueUsernames.get(player.uuid) == null) {
                 if (uniqueUsernames.containsValue(player.name)) {
