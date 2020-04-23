@@ -41,7 +41,7 @@ public class UniqueUsernamesPlugin extends Plugin {
                     database.addPlayer(player);
                 }
             }
-            if (uniqueUsernames.get(player.uuid) != player.name) {
+            if (!uniqueUsernames.get(player.uuid).equals(player.name)) {
                 if (uniqueUsernames.containsValue(player.name)) {
                     player.con.kick(Packets.KickReason.nameInUse);
                 } else {
