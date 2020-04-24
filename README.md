@@ -2,7 +2,7 @@
 
 Saves the username of each joined user and prohibits impersonations.
 
-Does require your server to have a database, you may need to rebuild the plugin when changing the database if the driver is not recognized, simply add your databases dependency to gradle!
+Does require your server to have a database, you may need to rebuild the plugin when changing the database if the driver is not recognized, simply add your database dependency to gradle!
 
 ## How to use
 
